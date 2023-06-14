@@ -1,0 +1,49 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1563291074-2bf8677ac0e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=407&q=80);
+  background-size: cover;
+  background-position: center;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 42px;
+}
+.searchField {
+  display: flex;
+}
+.search {
+  flex: 1;
+  padding: 15px;
+  margin-left: 75px;
+  margin-right: 75px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.state {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+p {
+  align-self: center;
+}
+a {
+  text-decoration: none;
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 32px;
+  align-self: center;
+}
+@media all and (max-width: 800px) {
+  .search {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
